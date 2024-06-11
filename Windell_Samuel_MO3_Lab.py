@@ -1,5 +1,14 @@
+#Samuel Windell 
+#MO3 Lab
 #This program stores instance variables of vehicle types with a class until a user is finished, then prints the collected 
-#data with pprint.  
+#data. 
+#Class Vehicle holds the required instantiation of the general vehicle variable. 
+#Class Automobile holds the required instantiation variables for the car attributes. 
+#def storeTheData creates a list effectively formatting the data into nice looking columns. 
+#Done is a variale that determines when to end the car attribute variables generation from the user. 
+#correct is a validity checking variable makign sure the user is entering valid information when possible. 
+#data is a list that holds the class instantiated variable attributes while the user is not done entering data. 
+#counter keeps track of the number of cars entered first. Then counter keeps track of the index while printing out the data list. 
 class Vehicle: 
    def __init__(self, _vehicle): 
       self.type = _vehicle 
